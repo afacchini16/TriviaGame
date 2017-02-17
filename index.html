@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Trivia Game</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class = "startButtonWrapper">
+		<img src = "assets/images/jazz-button-wallpaper.jpg" height = 300px width = 300px>
+			<div class = "startButtonText">Trivia Game!</div>
+		<button id = "startButton"> Start </button>
+
+	</div>
+
+	<div class = "gamePlayArea">
+		<header> Jazz Trivia Game!</header>
+			<div class = "timeRemaining">Time Left: <span>  </span>seconds</div>
+	<div class = "questions">
+		<form action = "">
+			<div id = "q1"><p>Which of these instruments is not commonly played in jazz?</p>				
+				<div class = "questionText">
+					<input type = "radio" name = "q1Answer" value = "Saxophpone">Saxophone
+					<input type = "radio" name = "q1Answer" value = "Guitar">Guitar
+					<input type = "radio" name = "q1Answer" value = "Bass">Bass
+					<input type = "radio" name = "q1Answer" value = "Oboe">Oboe
+				</div>
+			</div>
+
+		</form>
+		<form action = "">
+			<div id = "q1"><p>What was Louis Armstrong's nickname?</p>
+				<div class = "questionText">
+					<input type = "radio" name = "q1Answer" value = "satchmo">Satchmo
+					<input type = "radio" name = "q1Answer" value = "theCount">The Count
+					<input type = "radio" name = "q1Answer" value = "kingOfSwing">King of Swing
+				</div>
+			</div>
+		</form>
+		<form action = "">
+			<div id = "q2"><p>What was Miles Davis known for doing during his performances?</p>
+				<div class = "questionText">
+					<input type = "radio" name = "q1Answer" value = "turningBack">Turning his back to the audience?
+					<input type = "radio" name = "q1Answer" value = "leaving">Leaving the stage for long periods of time?
+					<input type = "radio" name = "q1Answer" value = "calling">Calling audience members on the stage?
+				</div>
+			</div>
+		</form>
+		<form action = "">
+			<div id = "q3"><p>Charlie Parker was best known for which style of Jazz?</p>
+				<div class = "questionText">
+					<input type = "radio" name = "q1Answer" value = "smoothJazz">Smooth Jazz
+					<input type = "radio" name = "q1Answer" value = "freeJazz">Free Jazz
+					<input type = "radio" name = "q1Answer" value = "bebop">Bebop
+					<input type = "radio" name = "q1Answer" value = "swing">Swing
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+	<div class = "finalScreen">
+		<h1> Time's Up! </h1>
+		<div id = "correctAnswers">Correct Answers: <span>0</span></div>
+		<div id = "incorrectAnswers">Incorrect Answers: <span>0</span></div>
+	</div>
+
+  
+
+<script src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+</body>
+</html>

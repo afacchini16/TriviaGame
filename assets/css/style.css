@@ -1,0 +1,76 @@
+body{
+	background-image: url("../images/jazz-wallpaper.jpg")
+}
+header{
+	font-size:200%;
+	color:white;
+	margin:20px;
+	text-align:center;
+}
+.gamePlayArea{
+	width:820px;
+	/*background-color:rgb(137, 207, 240);*/
+	background-color:black;
+	margin:50px auto;
+	padding:10px;
+}
+.timeRemaining{
+	text-align:center;
+	margin:0 auto;
+	color:white;
+	font-size:150%;
+}
+p{
+	font-size:200%;
+	margin:0;
+	text-align:center;
+	color:white;
+}
+.questionText{
+	font-size:140%;
+	text-align:center;
+	color:red;
+}
+#startButton{
+	width:200px;
+	margin:16px;
+	padding:10px 50px 10px 50px;
+	font-size:140%;
+}
+#submitBtn{
+	width:200px;
+	/*margin:16px;*/
+	/*padding:10px 50px 10px 50px;*/
+	font-size:140%;
+	text-align:center; margin:auto;
+}
+.startButtonWrapper{
+	background-color:black;
+	width:820px;
+	height:400px;
+	margin:50px auto;
+	text-align:center;
+	padding:25px 0 100px 0;
+	color:red;
+}
+.startButtonWrapper img{
+	position:relative;
+	display:block;
+	margin:auto;
+}
+.startButtonText{
+	position:absolute;
+	bottom:330px;
+	left:390px;
+	color:white;
+	font-size:300%;
+}
+.finalScreen{
+	background-color:black;
+	width:820px;
+	height:200px;
+	margin:50px auto;
+	text-align:center;
+	padding:25px 0 100px 0;
+	color:red;
+}
